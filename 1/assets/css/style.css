@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --GeneralFont: 'Titillium Web', sans-serif;
+    --GeneralColor: #87509c;
+
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* header css start */
+
+.active,
+header nav ul li a:hover {
+    border-radius: 4px;
+    background-color: #643a79;
+}
+
+
+header {
+    background-color: var(--GeneralColor);
+}
+
+header nav {
+    padding-top: 55px;
+
+
+}
+
+header nav ul {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    font: 400 16px var(--GeneralFont);
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: 0.5s;
+    padding: 10px 20px;
+
+
+}
+
+header nav h2{
+    font: 700 42px var(--GeneralFont);
+    line-height: 49px;
+    color: #f7f3ea;
+    text-align: center;
+    margin: 145px ;
+  
+}
+
+header button {
+    margin: 60px auto 140px auto;
+    
+    /* margin:400px; */
+    border: none;
+    border-radius: 4px;
+    background-color: #eb7d4b;
+    font: 600 18px var(--GeneralFont);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 25px 80px;
+}
+
+/* header css end */
+
+/* services css start */
+.services {
+    background-color: #17c2a4;
+}
+
+.services .container h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: var(--GeneralFont);
+    text-align: center;
+    padding-top: 115px;
+}
+
+.services .container hr {
+    margin: 20px auto 0 auto;
+    border: none;
+    width: 87px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, .2);
+
+}
+.services .container p{
+    margin-top: 20px;
+    font-size: 18px;
+letter-spacing: 0px;
+/* line-height: 26px; */
+color: #ffffff;
+font-weight: 400;
+font-family: var(--GeneralFont);
+text-align: center;
+}
+.services .cards div{
+   
+    margin: 80px 50px 55px auto;
+    display: inline-block;
+}
+.services .cards div h1{
+    font-size: 24px;
+letter-spacing: 0px;
+line-height: 18px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: var(--GeneralFont);
+}
+.services .cards div p {
+    width: 204px;
+height: 192px;
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 300;
+font-family: var(--GeneralFont);
+text-align: center;
+}
+
+/* services css end  */
+
+
+/* team css start */
+
+.team{
+    background-color: #e7f1f8;
+}
+.team .container h1{
+    padding-top: 120px;
+    font-size: 41px;
+letter-spacing: 4px;
+line-height: 30px;
+color: #3c4761;
+font-weight: 700;
+font-family: var(--GeneralFont);
+text-align: center;
+}
+.team .container hr{
+   
+    margin: 20px auto 0 auto;
+    border: none;
+    width: 87px;
+height: 4px;
+background-color:rgba(0,0,0,.1);
+}
+.team .container p {
+    margin-top: 20px;
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #3c4761;
+font-weight: 400;
+font-family: "Titillium Web";
+text-align: center;
+}
+.team .card div{
+    display: inline-block;
+    margin:80px 50px 55px auto ;
+
+}
+.card div img{
+    
+    width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+}
+.card div h2{
+    margin-top: 40px;
+    font-size: 24px;
+letter-spacing: 0px;
+line-height: 18px;
+text-transform: uppercase;
+color: #27283d;
+font-weight: 700;
+font-family: "Titillium Web";
+}
+.card div a{
+   margin-top: 15px;
+    font-size: 16px;
+letter-spacing: 0px;
+line-height: 18px;
+color: #30bae7;
+font-weight: 400;
+font-family: "Titillium Web";
+text-align: center;
+}
+.card div p{
+    margin-top: 30px;
+    width: 204px;
+height: 192px;
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #3c4761;
+font-weight: 300;
+font-family: "Titillium Web";
+text-align: center;
+}
+
+/* team css end */
+
+/* skills css start */
+
+.skills{
+    background-color: #ffffff;
+}
+.skills h1{
+    padding-top: 115px;
+    font-size: 40px;
+letter-spacing: 4px;
+line-height: 30px;
+color: #3c4761;
+font-weight: 700;
+font-family: var(--GeneralFont);
+text-align: center;
+}
+.skills .container hr{
+    border: none;
+    margin:20px auto 25px auto;
+    width: 87px;
+height: 4px;
+background-color: rgba(0, 0, 0, .2);
+}
+.skills.container p{
+    margin: auto;
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #3c4761;
+font-weight: 400;
+font-family: var(--GeneralFont);
+text-align: center;
+}
+.skills .skill div{
+    display: inline-block;
+    margin:80px 50px 55px auto ;
+}
+
+.skills div img{
+    width: 168px;
+height: 176px;
+
+}
+.skills div h2{
+    margin-top: 20px;
+    font-size: 24px;
+letter-spacing: 0px;
+line-height: 18px;
+text-transform: uppercase;
+color: #3c4761;
+font-weight: 700;
+font-family: var(--GeneralFont);
+}
+
+
+
